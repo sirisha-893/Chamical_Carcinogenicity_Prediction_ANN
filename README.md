@@ -13,9 +13,11 @@ Activation Logic: I used the ReLU (Rectified Linear Unit) function for the hidde
 Layer Depth: The model uses multiple dense layers to extract non-linear patterns from the chemical
 3. Optimization & Loss
 The training was optimized using the Adam algorithm, which adaptively adjusts the learning rate for faster convergence. I chose Binary Cross-Entropy as the loss function, as it is the industry standard for probability-based binary classification.
+
 Experimental Results
 Peak Performance: The model achieved a 100% Accuracy score on the test dataset.
 Validation: Verified the results using a Confusion Matrix to ensure zero misclassifications between carcinogenic and non-carcinogenic samples.
+
 Key Learnings & Future Roadmap
 Hyperparameter Tuning: In the next phase, I plan to use Keras Tuner to find the optimal number of neurons and layers automatically.
 Cross-Validation: I aim to test this model on much larger, international toxicity datasets (like Tox21) to further validate its generalization capabilities.
