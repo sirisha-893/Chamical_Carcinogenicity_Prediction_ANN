@@ -1,4 +1,4 @@
-# Chamical_Carcinogenicity_Prediction_ANN
+# Chemical_Carcinogenicity_Prediction_ANN
 A Deep Learning approach to classify chemical compounds based on their cancer-causing potential using Artificial Neural Networks.
 #Project Overview
 This project represents a Computational Toxicology approach to drug safety. I have developed a deep learning-based screening tool that predicts whether a chemical substance has carcinogenic potential. By utilizing Artificial Neural Networks (ANN), this model can analyze molecular features and provide safety assessments in seconds—a process that normally takes years in a laboratory.
